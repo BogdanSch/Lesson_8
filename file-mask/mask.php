@@ -1,11 +1,11 @@
 <?php
 
-$reg_image = '/^IMG_[1-9]*\.(jpg|png|gif)$/';
+$reg_image = '/^[images\/\]IMG_[1-9]*\.(jpg|png|gif)$/';
 $image_names = [
-    "IMG_2.jpg",
-    "IMG_2/jpg",
-    "IMG_2.bmp",
-    "IMG_84.png",
+    "images/IMG_2.jpg",
+    "images/IMG_2/jpg",
+    "images/IMG_2.bmp",
+    "images/IMG_84.png",
 ];
 
 for ($i=0; $i < count($image_names); $i++) { 
