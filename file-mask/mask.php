@@ -1,10 +1,10 @@
 <?php
 
-$reg_image = '/^[images\/\]IMG_[0-9]*\.(jpg|png|gif)$/';
+$reg_image = '/^images\/IMG_[0-9]*\.(jpg|png|gif)$/';
 $image_names = [
-    "images/IMG_2.jpg",
+    "IMG_2.jpg",
     "images/IMG_2/jpg",
-    "images/IMG_2.bmp",
+    "/gfd/IMG_2.bmp",
     "images/IMG_84.png",
 ];
 
